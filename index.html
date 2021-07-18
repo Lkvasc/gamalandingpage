@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Landing Page</title>
+</head>
+
+<body>
+  <script src="js/script.js"></script>
+  <div class="container">
+    <div class="logo" id="logo">
+      <img class="" src="assets/logo.png" id="logo" />
+    </div>
+    <div class="message">
+      <p>Fique por dentro de nossas novidades, e promoções de sneakers </p>
+    </div>
+    <div class="box-row">
+      <section>
+        <div class="slider">
+
+          <a href="#slide-1">1</a>
+          <a href="#slide-2">2</a>
+          <a href="#slide-3">3</a>
+          <a href="#slide-4">4</a>
+          <a href="#slide-5">5</a>
+
+          <div class="slides">
+            <div id="slide-1">
+              <div class="box">
+                <p class="card-title">Air Jordan 3 Retro Racer</p>
+                <img src="assets/jordan3retroracer.png" class="model">
+              </div>
+            </div>
+            <div id="slide-2">
+              <div class="box">
+                <p class="card-title">Air Jordan 4 Retro Oreo</p>
+                <img src="assets/jordan4retrooreo.png" class="model">
+              </div>
+            </div>
+            <div id="slide-3">
+              <div class="box">
+                <p class="card-title">Air Jordan 1 Orange</p>
+                <img src="assets/airjordan1orange.png" class="model">
+              </div>
+            </div>
+            <div id="slide-4">
+              <div class="box">
+                <p class="card-title">Air Jordan 1 Dior</p>
+                <img src="assets/airjordandior.png" class="model">
+              </div>
+            </div>
+            <div id="slide-5">
+              <div class="box">
+                <p class="card-title">Air Jordan 1 Gatorade</p>
+                <img src="assets/jordan1gatorade.png" class="model">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        
+        <div class="emailform">
+          <form>
+            <p>
+              Cadastre-se para receber as novidades por e-mail
+            </p>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Nome completo:</label>
+              <input class="form-control" type="text" id="name" placeholder="Michael Jordan">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">E-mail:</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                placeholder="michaeljordan@gmail.com">
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Aceito receber e-mails</label>
+            </div>
+            <div id="button" class="button">
+              <button type="submit" class="btn btn-primary" onclick="store()">Enviar</button>
+            </div>
+            
+          </form>
+        </div>
+      </section>
+
+    </div>
+</body>
+
+</html>
